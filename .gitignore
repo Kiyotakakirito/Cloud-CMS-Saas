@@ -1,0 +1,31 @@
+# Tooling & Configs
+.config/
+.local/
+.vscode/
+.idea/
+
+# Node.js
+node_modules/
+.next/
+out/
+build/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables (Secrets)
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
